@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+  <style>
+    body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+div {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+summary {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div align="center">
+    <br>
+        <a href="https://github.com/MLRS-dev/rotor-extractor"><img src="source\logo_E.png" width="250px" height="250px" alt="Software_E-logo"></a>
+      <br>
+    <h1>EXTRACTOR</h1>
+    <h2><b>A simple automatic GUI-based data extraction tool for Q-Rex Software</b></h2>
+        <h4>
+        <a href="#system-requirements">Requirements</a>
+        •
+        <a href="#getting-started">Getting Started</a>
+        •
+        <a href="#features">Features</a>
+        •
+        <a href="#demo">Demo</a>
+    </h4>
+    <h3>
+        <a href="https://github.com/MLRS-dev">
+            <img src="https://img.shields.io/badge/maintainer-%40MLRS--dev-cyan" alt="Maintainers">
+        </a>
+        <a href="https://github.com/MLRS-dev/Extractor/releases/latest/tags/v1.0.0">
+            <img src="https://img.shields.io/badge/launched-April%202023-teal" alt="Release">
+        </a>
+        <a href="https://github.com/MLRS-dev/Extractor/releases/latest">
+        <img src="https://img.shields.io/github/release/MLRS-dev/Extractor?color=brightgreen&label=version" alt="Version">
+        </a>
+        <a href="https://www.microsoft.com/en-in/software-download/">
+        <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Operating system">
+      </a>
+      <a href="https://github.com/MLRS-dev/Extractor/commits/main">
+      <img src="https://img.shields.io/github/last-commit/MLRS-dev/Extractor?color=blueviolet&label=updated">
+      </a>
+    </h3>
+</div>
+
+<p><a href="https://github.com/MLRS-dev/Extractor">EXTRACTOR</a> is an application that has been developed to assist <em>Rotor-Gene</em> PCR cycler users to extract raw data &quot;.rex&quot; files from <strong><em>Rotor-Gene Q-Rex Software Series</em></strong></p>
+<p><img src="https://user-images.githubusercontent.com/126145859/229084089-d8257d94-df4c-4a0f-910f-368f641c7909.png" alt="extractor_bg"></p>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>📌 Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#why-extractor">Why EXTRACTOR?</a>
+    </li>
+    <li>
+    <a href="#what-is-extractor">What is EXTRACTOR?</a>
+    </li>
+    <li><a href="#system-requirements">System Requirements</a></li>
+    <li><a href="#features">Features</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#getting-help">Getting Help</a></li>
+    <li><a href="#meet-the-team">Meet the Team</a></li>
+  </ol>
+</details>
+
+<p><br /></p>
+<h1 id="why-extractor-">Why EXTRACTOR?</h1>
+<p>EXTRACTOR is an artifact from our Main project, (currently, we are working on at <strong><a href="https://microserv.in/">Microbiological Laboratory Research and Services, Coimbatore</a></strong> in association with <strong><a href="https://microlabindia.com/">Microbiological Laboratory, Coimbatore</a></strong>) so we opted to make an application that automatically extracts the <strong>High Resolution Melt (HRM)</strong> raw data (<strong>&#39;.rex&#39;</strong> files) produced by <strong><a href="https://www.qiagen.com/us">Qiagen&#39;s</a></strong> <em><a href="https://www.qiagen.com/us/products/discovery-and-translational-research/epigenetics/dna-methylation/methylation-specific-pcr/rotor-gene-q">Rotor-Gene Q</a></em> PCR cyclers to the necessary &#39;.xls&#39; files from the <strong><a href="https://www.qiagen.com/us/applications/pcr/thermal-cyclers/q-rex-software">Qiagen&#39;s Q-Rex Software</a></strong> and its solely for the <em>analytical</em> purpose only.</p>
+<p>It&#39;s very useful for the laboratories, those who run plentiful PCR experiments and have past run files, and want to export those raw data into desired excel format (.xls files) for their internal analytics team to work with that data.</p>
+<h1 id="what-is-extractor-">What is EXTRACTOR?</h1>
+<p>EXTRACTOR is a lightweight simple GUI-based application that extracts <strong>&#39;.rex&#39;</strong> files from the <strong>Qiagen&#39;s Rotor-Gene Q Software</strong> to the necessary <strong>&#39;.xls&#39;</strong> file. It&#39;s built for the users such as laboratory technicians and clinicians who handle and run PCR experiments especially in <strong>Qiagen&#39;s Rotor-Gene Q</strong> thermal cycler machine.</p>
+<p>After the successful experiment ran in <em>Rotor-Gene Q</em> cycler, it produces the raw data and the users which can be only opened and analyzed via <strong>Qiagen&#39;s Q-Rex Software</strong>. If a specific run file (raw data) has to be exported into desired formats such as <em>text</em>(.txt), <em>HTML Table</em>(.html), <em>XML</em>(.xml), <em>excel</em>(.xls) given by the <strong>Qiagen Rotor-Gene Q-Rex Software</strong>. Here we automated the user role by our <strong>EXTRACTOR</strong> Software, by which you simply put the raw data file directory and desired directory to which the excel files are stored in your system, which saves time and not to burned out from this repititive task.</p>
+<p align="center">
+<b>Manual Conversion</b><br />
+    Time consuming and often introduce frustation and inconsistency, while converting bulks of raw data by manual process.
+</p>
+
+<p><img src="https://user-images.githubusercontent.com/126145859/227910822-4ef20c41-3f6b-49d7-9dce-ff611d909419.png" alt="Manual Conversion"></p>
+<p align="center">
+<b>Automatic Conversion</b><br />
+    Runs in a constant time and it handle countless of raw data automatically without any human intervence.
+</p>
+
+<p><img src="https://user-images.githubusercontent.com/126145859/227910859-43c36212-5e51-4061-8e71-cf66ab2951d9.png" alt="Automatic Conversion"></p>
+<h1 id="system-requirements">System Requirements</h1>
+<p>The following are the essential requirements for this software to run:</p>
+<table>
+  <tr>
+    <td nowrap><strong>Q-Rex Software</strong></td><td><i><b>Rotor-Gene Q Software v2.3.5 (Build 1)</b></i></td>
+  </tr>
+  <tr>
+    <td nowrap><strong>Platforms</strong></td><td><i>Windows</i></td>
+  </tr>
+</table>
+
+<h1 id="features">Features</h1>
+<ul>
+<li>Able to set user credentials.</li>
+<li>Selection of which type of data to extract from the raw data, i.e.,<ul>
+<li>CT (Amplification Curve)</li>
+<li>MELT (derivative) &amp;</li>
+<li>HRM (Normalized fluorescence)</li>
+</ul>
+</li>
+<li>Supports desired output format as excel file.</li>
+</ul>
+<h1 id="getting-started">Getting Started</h1>
+<p>It is easy to get started, you can download the executable zip file <a href="https://github.com/MLRS-dev/Extractor/releases/latest/download/EXTRACTOR-v1.0.0.zip">here</a></p>
+<h1 id="setup">Setup</h1>
+<ol>
+<li>Go to the unzipped application folder.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/126145859/228214338-2dbcedb7-74bd-43ac-acf2-57e372cc806e.jpg" alt="folder"></p>
+<ol>
+<li>Find the executable file and run it.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/126145859/229074435-de70dc29-2d13-4245-932b-cacd9ad72cf3.jpg" alt="app"></p>
+<ol>
+<li>After the successful installation, register with new user credentials</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>:</p>
+<ul>
+<li>An user can able to set only two new user credentials.</li>
+<li>Username is  case-sensitive.</li>
+</ul>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/126145859/229084487-5184df34-ccce-4e87-9cae-9ab78d4c62d7.png" alt="signup_user"></p>
+<h2 id="type-of-data-to-extract">Type of data to extract</h2>
+<p>Select the type of data from the drop-down menu and enter the respected fields below and finally enter submit.</p>
+<p><img src="https://user-images.githubusercontent.com/126145859/229084427-a837e98a-fbc9-451c-9ff7-51c30f41b3df.png" alt="types"></p>
+<p>Let the Extractor do it.</p>
+<h1 id="demo">Demo</h1>
+<p>To see the detailed demo of this application, click <a href="https://youtu.be/4sDumV86qFI">here</a></p>
+<h1 id="getting-help">Getting Help</h1>
+<p>If you need to get in touch with the team, please contact through email address: <a href="mailto:project.2023.bu@gmail.com?subject=Extractor%20Application">project.2023.bu@gmail.com</a></p>
+<h1 id="meet-the-team">Meet the Team</h1>
+<p>   The developers in this project are post graduate students in the <a href="https://b-u.ac.in/23/department-computer-applications">Department of Computer Applications</a> @ <a href="https://b-u.ac.in/">Bharathiar University</a></p>
+<table style="width:25%">
+  <tbody>
+    <tr>
+      <td align="center" valign="top"><a href="https://github.com/rajag0pal"><img src="https://avatars.githubusercontent.com/u/80576855?v=4" width="50px;" alt="Rajagopal S"/><br /><sub><b><a href="https://www.linkedin.com/in/rajagopal-s/">Rajagopal S</a></b></sub></a><br /></td>
+      <td align="center" valign="top"><a href="https://github.com/VigneshD-A"><img src="https://avatars.githubusercontent.com/u/94525493?v=4" width="50px;" alt="Vignesh R"/><br /><sub><b><a href="https://www.linkedin.com/in/vignesh-r-31b5601b8/">Vignesh R</a></b></sub></a><br /></td>
+      <td align="center" valign="top"><a href="https://github.com/IamSenthilKumar"><img src="https://avatars.githubusercontent.com/u/89689985?v=4" width="50px;" alt="Senthil Kumar N"/><br /><sub><b><a href="https://www.linkedin.com/in/senthilkumar-n/">N.S.K</a></b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
