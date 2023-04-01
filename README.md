@@ -131,7 +131,7 @@ It is easy to get started, you can download the executable zip file [here](https
 
 > **Note**:
 > - An user can able to set only two new user credentials.
-> - Username is not case-sensitive.
+> - Username is  case-sensitive.
 
 ![signup_user](https://user-images.githubusercontent.com/126145859/229084487-5184df34-ccce-4e87-9cae-9ab78d4c62d7.png)
 
@@ -147,9 +147,7 @@ Let the Extractor do it.
 
 # Demo
 
-To see the detailed demo of this application, click the image below.
-
-[![Demo in YouTube](https://img.youtube.com/vi/4sDumV86qFI/3.jpg)](https://youtu.be/4sDumV86qFI)
+To see the detailed demo of this application, click [here](https://youtu.be/4sDumV86qFI)
 
 # Getting Help
 
