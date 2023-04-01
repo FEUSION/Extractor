@@ -17,12 +17,11 @@
         <a href="https://github.com/MLRS-dev">
             <img src="https://img.shields.io/badge/maintainer-%40MLRS--dev-cyan" alt="Maintainers">
         </a>
-        <a href="https://github.com/MLRS-dev/Extractor/releases/new/tags/v1.0.0">
-            <img src="https://img.shields.io/badge/launched-March%202023-teal" alt="Release">
+        <a href="https://github.com/MLRS-dev/Extractor/releases/latest/tags/v1.0.0">
+            <img src="https://img.shields.io/badge/launched-April%202023-teal" alt="Release">
         </a>
-        <a href="https://github.com/MLRS-dev/Extractor/releases/new">
-<!--         <img src="https://img.shields.io/github/v/release/MLRS-dev/Extractor?color=brightgreen&label=version" alt="Version"> -->
-            <img src="https://img.shields.io/badge/version-v1.0.0-brightgreen" alt="Version">
+        <a href="https://github.com/MLRS-dev/Extractor/releases/latest">
+        <img src="https://img.shields.io/github/release/MLRS-dev/Extractor?color=brightgreen&label=version" alt="Version">
         </a>
         <a href="https://www.microsoft.com/en-in/software-download/">
         <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Operating system">
@@ -113,7 +112,7 @@ The following are the essential requirements for this software to run:
 
 # Getting Started
 
-It is easy to get started, you can download the executable zip file [here](https://github.com/MLRS-dev/Extractor/releases/new/tags/v1.0.0.zip)
+It is easy to get started, you can download the executable zip file [here](https://github.com/MLRS-dev/Extractor/releases/latest/download/EXTRACTOR-v1.0.0.zip)
 
 # Setup
 
