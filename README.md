@@ -1,6 +1,6 @@
 <div align="center">
     <br>
-        <a href="https://github.com/MLRS-dev/rotor-extractor"><img src="source\logo_E.png" width="250px" height="250px" alt="Software_E-logo"></a>
+        <a href="https://github.com/FEUSION/rotor-extractor"><img src="source\logo_E.png" width="250px" height="250px" alt="Software_E-logo"></a>
       <br>
     <h1>EXTRACTOR</h1>
     <h2><b>A simple automatic GUI-based data extraction tool for Q-Rex Software</b></h2>
@@ -14,25 +14,25 @@
         <a href="#demo">Demo</a>
     </h4>
     <h3>
-        <a href="https://github.com/MLRS-dev">
-            <img src="https://img.shields.io/badge/maintainer-%40MLRS--dev-cyan" alt="Maintainers">
+        <a href="#meet-the-team">
+            <img src="https://img.shields.io/badge/maintainers-The Team-cyan" alt="Maintainers">
         </a>
-        <a href="https://github.com/MLRS-dev/Extractor/releases/latest/tags/v1.0.0">
+        <a href="https://github.com/FEUSION/Extractor/releases/latest/tags/v1.0.0">
             <img src="https://img.shields.io/badge/launched-April%202023-teal" alt="Release">
         </a>
-        <a href="https://github.com/MLRS-dev/Extractor/releases/latest">
+        <a href="https://github.com/FEUSION/Extractor/releases/latest">
         <img src="https://img.shields.io/github/release/MLRS-dev/Extractor?color=brightgreen&label=version" alt="Version">
         </a>
         <a href="https://www.microsoft.com/en-in/software-download/">
         <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Operating system">
       </a>
-      <a href="https://github.com/MLRS-dev/Extractor/commits/main">
-      <img src="https://img.shields.io/github/last-commit/MLRS-dev/Extractor?color=blueviolet&label=updated">
+      <a href="https://github.com/FEUSION/Extractor/commits/main">
+      <img src="https://img.shields.io/github/last-commit/FEUSION/Extractor?color=blueviolet&label=updated">
       </a>
     </h3>
 </div>
 
-[EXTRACTOR](https://github.com/MLRS-dev/Extractor) is an application that has been developed to assist _Rotor-Gene_ PCR cycler users to extract raw data ".rex" files from **_Rotor-Gene Q-Rex Software Series_**
+[EXTRACTOR](https://github.com/FEUSION/Extractor) is an application that has been developed to assist _Rotor-Gene_ PCR cycler users to extract raw data ".rex" files from **_Rotor-Gene Q-Rex Software Series_**
 
 ![extractor_bg](https://user-images.githubusercontent.com/126145859/229084089-d8257d94-df4c-4a0f-910f-368f641c7909.png)
 
@@ -112,7 +112,7 @@ The following are the essential requirements for this software to run:
 
 # Getting Started
 
-It is easy to get started, you can download the executable zip file [here](https://github.com/MLRS-dev/Extractor/releases/latest/download/EXTRACTOR-v1.0.0.zip)
+It is easy to get started, you can download the executable zip file [here](https://github.com/FEUSION/Extractor/releases/latest/download/EXTRACTOR-v1.0.0.zip)
 
 # Setup
 
@@ -150,7 +150,7 @@ To see the detailed demo of this application, click [here](https://youtu.be/4sDu
 
 # Getting Help
 
-If you need to get in touch with the team, please contact through email address: [project.2023.bu@gmail.com](mailto:project.2023.bu@gmail.com?subject=Extractor%20Application)
+If you need to get in touch with the team, please contact through email address: [feusion.ai@gmail.com](mailto:feusion.ai@gmail.com?subject=Extractor%20Application)
 
 # Meet the Team
 
@@ -159,7 +159,7 @@ If you need to get in touch with the team, please contact through email address:
   <tbody>
     <tr>
       <td align="center" valign="top"><a href="https://github.com/rajag0pal"><img src="https://avatars.githubusercontent.com/u/80576855?v=4" width="50px;" alt="Rajagopal S"/><br /><sub><b><a href="https://www.linkedin.com/in/rajagopal-s/">Rajagopal S</a></b></sub></a><br /></td>
-      <td align="center" valign="top"><a href="https://github.com/VigneshD-A"><img src="https://avatars.githubusercontent.com/u/94525493?v=4" width="50px;" alt="Vignesh R"/><br /><sub><b><a href="https://www.linkedin.com/in/vignesh-r-31b5601b8/">Vignesh R</a></b></sub></a><br /></td>
+      <td align="center" valign="top"><a href="https://github.com/VIGNESH-R-06"><img src="https://avatars.githubusercontent.com/u/94525493?v=4" width="50px;" alt="Vignesh R"/><br /><sub><b><a href="https://www.linkedin.com/in/vignesh-r-31b5601b8/">Vignesh R</a></b></sub></a><br /></td>
       <td align="center" valign="top"><a href="https://github.com/IamSenthilKumar"><img src="https://avatars.githubusercontent.com/u/89689985?v=4" width="50px;" alt="Senthil Kumar N"/><br /><sub><b><a href="https://www.linkedin.com/in/senthilkumar-n/">N.S.K</a></b></sub></a><br /></td>
     </tr>
   </tbody>
